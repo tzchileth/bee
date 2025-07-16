@@ -3,7 +3,6 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
 }
 
@@ -43,6 +42,48 @@ button {
 .headline {
     display: flex;
     justify-content: space-between;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    box-sizing: border-box;
+    border: 2px solid  #3882F6;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 8px;
+  padding: 16px;
+  width: 150px;
+  color: #0f0f0f;
+    font-size: 18px;
+}
+
+.right {
+    display: flex;
+    border: 2px solid  #cdf638;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 8px;
+}
+
+.card img {
+    width: 120px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .logo {
