@@ -67,6 +67,11 @@ button {
     font-size: 18px;
 }
 
+.card:hover {
+        background-color: #042755;
+        color: #ffffff;
+}
+
 .right {
     display: flex;
     border: 2px solid  #cdf638;
@@ -74,6 +79,12 @@ button {
     border-radius: 8px;
 }
 
+
+li:hover, a:hover {
+        text-decoration: underline;
+        text-decoration-color: #701616;
+        text-decoration-thickness: 5px;
+}
 
 .headline img {
     display: flex;
