@@ -20,7 +20,6 @@ button {
 .container {
     display: flex;
     flex-direction: column;
-
 }
 
 .header img {
@@ -71,12 +70,85 @@ button {
 .right {
     display: flex;
     border: 2px solid  #cdf638;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 8px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
 }
 
+
+.headline img {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 15px;
+    width: 300px;
+    background-color: #808080;
+}
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+        height: 150px;
+
+
+}
+
+.call-to-action .third-container {
+    display: flex;
+    align-items: center;
+        background: #3882F6;
+        padding: 8px;
+        border-radius: 5px;
+        gap: 20px;
+        height: 50px;
+}
+
+.left>.header {
+    color: white;
+    font-weight: bold;
+}
+
+ .small-text {
+    color: #e9eaeb;
+    font-size: 12px;
+ }
+
+.call-to-action button {
+    border: 1px solid  #ffffff;
+    font-family: Roboto, sans-serif;
+    border-radius: 5px;
+    background: #3882F6;
+    color: #ffffff;
+    font-weight: 900;
+    padding: 8px 20px;
+    font-size: 10px;
+}
 .card img {
     width: 120px;
+}
+
+.quote {
+    flex:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 24px;
+    height: 150px;
+}
+
+.words {
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    align-self: center;
+}
+.owner {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    font-weight: bold;
 }
 
 .title {
@@ -105,15 +177,18 @@ a, .tiny-text {
     font-size: 18px;
 }
 
-.headline img {
-    color: #E5E7EB;
-    font-size: 15px;
-    width: 300px;
-    background-color: #808080;
-}
-
 .awesome {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 12px;
+    height: 50px;
 }
