@@ -91,6 +91,8 @@ li:hover, a:hover {
     color: #E5E7EB;
     font-size: 15px;
     width: 300px;
+    height: 100%;
+    max-width: 100%;
     background-color: #808080;
 }
 .call-to-action {
