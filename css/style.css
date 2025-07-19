@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@300&display=swap');
 
 body {
     height: 100vh;
@@ -102,8 +104,6 @@ li:hover, a:hover {
     gap: 50px;
     padding: 20px;
         height: 150px;
-
-
 }
 
 .call-to-action .third-container {
@@ -167,8 +167,16 @@ li:hover, a:hover {
 .title {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900;
     margin-bottom: 10px;
+     font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
 }
 
 .logo {
@@ -193,7 +201,9 @@ a, .tiny-text {
 .awesome {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .footer {
